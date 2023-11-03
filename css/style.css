@@ -1,0 +1,549 @@
+:root {
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --ocean: #404bbf;
+    --white: #fff;
+    --slate: #434455;
+    --cornflower: #e7c9fc;
+    --cloud: #f4f4fd;
+    --lightslate: #8E8F99
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    color: #2E2F42;
+    font-family: Raleway, sans serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    padding-right: 76px;
+
+}
+.logo span {
+    font-family: raleway, sans serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 156px;
+
+}
+
+body {
+    font-family: "roboto", sans-serif;
+}
+
+.toraul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 40px;
+    text-align: left; 
+
+} 
+.toraulin {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    gap: 40px;
+    align-items: center;
+    text-align: left; 
+    justify-content: center;
+    background-color: cloud;
+}
+.textdesign {
+    text-align: left;
+}
+
+
+
+.toraulin p {
+    text-align: center;
+}
+
+
+.markguerrero {
+    height: 260px;
+    width: 264px;
+}
+
+
+
+
+
+    
+
+.dos {
+    display: flex;
+}
+
+
+
+head:hover {
+    color: rgb(129, 5, 102);
+  
+}
+
+
+.uno {
+   display: flex;
+   align-items: center;
+  
+}
+
+
+.dos {
+   align-items: center;
+}
+
+
+.mai {
+    margin-left: 940px;
+    gap: 40px;
+   
+}
+.tee {
+    margin-left: 40px;
+}
+
+.tel {
+    text-align: right
+}
+
+
+
+/*GENERAL STYLING*/
+.list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+a {
+    text-decoration: none;
+    
+}
+.effective {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-1.jpg");
+    background-size: cover;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+    font-size: 56px;
+    font-family: roboto, sans serif;
+    font-style: normal;
+}
+h3 {
+    text-align: center;
+}
+button {
+    color: white;
+    border-radius: 4px;
+    background: #4D5AE5;
+    border: none;
+    cursor: pointer;  
+    padding: 16px 32px; 
+}
+button:hover {
+    color:blue;
+    background-color: rgb(94, 142, 246);
+   
+}
+
+
+.stratcom {
+    font-family: roboto, sans serif;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+h3 {
+    color: #2E2F42;
+    font-family: roboto, sans serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .4px;
+    text-align: center;
+   
+
+}
+.doing {
+    color: #2E2F42;
+    font-family: roboto, sans serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.team {
+    color: cloud#2E2F42;
+    font-family: roboto, sans serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.logo2 span {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo2 {
+    color: white;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.costumers {
+    text-align: center;
+}
+
+.antenna {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--cloud);     
+}
+.clock {
+    padding: 24px 0;
+    text-align: center;
+    background-color: var(--cloud);
+}
+
+.iconstwo {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+.faceicon {
+    background-color: var(--iris);
+    padding: 19px;
+    border-radius: 50%;
+    fill: var(--white);
+}
+.employee {
+    width: 264px;
+    display: inline-flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: var(--white);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(14, 14, 20, 0.08), 0px 1px 1px 0px rgba(1, 3, 36, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    margin: 1px;
+}
+
+.damas {
+    background-color: var(--cloud)
+    
+}   
+
+
+
+/* CUSTUMERS ARE  */
+
+
+
+Costumer Area 
+
+.cosicon{
+    flex: content;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    justify-content: center;
+    border-radius: 4px;
+   
+ }
+
+.cosicon1 {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    align-items: flex-start;display: flex;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    gap: 40px;
+    fill: var(--lightslate);
+   
+}
+.cosicon1 svg {
+    fill: var(--lightslate) ;
+    padding: 16px 32px;
+}
+
+.logo1costumer {
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+    width: 104px;
+    height: 56px;
+    flex-shrink: 0;
+    width: 168px;
+    height: 88px;
+}
+.logo1costumer:hover,
+.logo1costumer:focus svg  {
+    border-color: var(--iris);
+}
+.logo1costumer:hover,
+.logo1costumer:focus svg  {
+    fill: var(--iris);
+}
+
+.active {
+    color: var(--ocean);
+}
+.active::after {
+    content: " ";
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--iris);
+   bottom: -18px;
+    position: relative;
+    left: 0;  
+}
+
+
+
+/* MODAL */
+
+
+.data-modal {
+    background-color: var(--white);
+    width: 408ox;
+    height: 584px;
+}
+.modal {
+    background-color: rgba(0, 0, 0, 00.5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.is-hidden {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER AREA  */
+
+
+footer {
+    background-color: #2E2F42;
+    padding: 101.5px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;}
+
+footer .toraulin {
+    padding-top: 0;
+    padding-bottom: 0;}
+footer .iconstwo {
+    justify-content: left;
+    text-decoration: none;
+    margin-left: 200px;
+}
+.footp {
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.media {
+    color: cloud#2E2F42;
+    font-family: roboto, sans serif;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 300px;
+    text-align: left;
+    
+}
+.socmed {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+   
+
+}
+.groupicons {
+    justify-content: center;
+
+}
+
+.faceiconf {
+    background-color: var(--iris);
+    padding: 19px;
+    border-radius: 50%;
+    fill: var(--white);
+}
+.iconstwof {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+/* Portfolio Are  */
+
+
+.unof {
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    
+}.dosf {
+    display: inline-block;
+    justify-content:center ;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+
+.projectbut {
+    text-align: center;
+    border-radius: 4px;
+}
+.buttonf {
+    
+    text-align: center;
+/* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+    padding: 12px 24px;
+    margin: 70px 50px;
+    color: var(--iris);
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    border: none;
+    cursor: pointer;  
+    padding: 16px 32px; 
+}
+.buttonf:hover {
+    color: white;
+}
+
+
+.list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 40px;  
+    padding-left: 0;
+    align-items: center;
+    text-align: center; 
+    justify-content: center;
+
+}
+.lista {
+    width: 360px;
+    overflow: hidden;
+  
+}
+
+.project li img {
+    width: 100%;
+    display: block;
+}
+.projectimg {
+    position: relative;
+    overflow: hidden;
+}
+.lista:hover .projectimgcaption {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+.projectimgcaption {
+    position: absolute;
+    background: rgba(77, 90, 229, 0.8);
+    color: var(--white);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.projectimgcaption p {
+    padding: 40px 32px;
+} 
+
+
+.project-caption {
+   text-align: left;
+
+}
+.baking {
+    text-align: left;
+    
+}
+.container {
+   align-items: center;
+
+}
