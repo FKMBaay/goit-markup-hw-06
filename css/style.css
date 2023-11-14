@@ -341,16 +341,14 @@ Costumer Area
 
 /* MODAL */
 
-
 .data-modal {
-    background-color: var(--white);
+    background-color: pink;
     width: 408px;
     height: 584px;
-    
-
-
 }
-.modal-content {
+
+
+.data-modal-content {
     background-color: rgba(0, 0, 0, 0.5px);
     position: absolute;
     top: 0;
@@ -358,10 +356,11 @@ Costumer Area
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     opacity: 0;
 }
+
 .is-hidden {
     visibility: hidden;
 }
