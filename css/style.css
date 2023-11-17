@@ -350,7 +350,7 @@ Costumer Area
 }
 
 .data-modal-content {
-    background-color: rgba(0, 0, 0, 0.5px);
+    background-color: gray;
     position: absolute;
     top: 0;
     left: 10px;  
@@ -363,10 +363,9 @@ Costumer Area
 }
 .modal-close-btn {
     border-radius: 100%;
-    border: 1px solid rgba(0, 0green, 0blue, 0.1);
-    background-color: var(--white);
-
-    color: var(--cloud);
+    border: 1px solid black rgba(0, 0, 0 0.1);
+    background-color: lightblue;
+    color: black;
     margin-left: auto;
     display: block;
     transition: fill 250ms cubic-bezier(0.4 0 0.2 1), border 250ms cubic-bezier(0.4 0 0.2 1);
@@ -375,8 +374,8 @@ Costumer Area
     justify-content: center;
 }
 .modal-close-btn:hover {
-    fill: currentColor;
-    border: 1px solid currentColor;
+    fill: navy;
+    border: 2px solid currentColor;
 }
 .backdrop {
     width: 100%;
@@ -407,29 +406,42 @@ Costumer Area
 
 }
 .input-label {
-    color: black;
+    color: var(--white);
     text-align: left;
     margin-bottom: 8px;
 }
 .service-input {
-   
     padding: 12px 40px;
-    border: 1px solid #2E2F42;
-    border-radius: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
     transition: 250ms;
     transition-property: color, border-color, background-color;
     transition-timing-function: cubic-bezier(0.4 0 0.2 1);
 }
 .service-icon {
+    padding-top: 8px;
     position: absolute;
     top: 49%;
-    left: 0px;
+    left: 15px;
+    fill: yellowgreen;
+    transition: fill 250ms cubic-bezier(0.4 0 0.2 1);
 }
-
-
-
-
-
+.service-input:focus + .service-icon
+.service-input:hover +.service-icon {
+    fill: var(--iris);
+}
+.service-input:hover {
+    border: 1px solid var(--iris);
+    
+}
+.service-input-textarea {
+    border: 1px solid var(--iris);
+    border-radius: 4px;
+    transition: 250ms;
+    transition-property: color, border-color, background-color;
+    transition-timing-function: cubic-bezier(0.4 0 0.2 1);
+    padding: 8px 16px;
+}
 
 
 
