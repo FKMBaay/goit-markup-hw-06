@@ -344,7 +344,7 @@ Costumer Area
 .modal {
     background-color:pink;
     width: 408px;
-    height: 584px;
+   
     border-radius: 4px;
     padding: 24px;  
 }
@@ -442,6 +442,57 @@ Costumer Area
     transition-timing-function: cubic-bezier(0.4 0 0.2 1);
     padding: 8px 16px;
 }
+.service-agree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agree-text{
+    font-size: 12px;
+}
+.agree-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 23px;
+    opacity: 0;
+
+}
+.agree-check-icon {
+    margin-right: 8px;
+    fill: none;
+    border: 2px solid black;
+    border-radius: 2px;
+    transition: 250ms;
+    transition-property: border-color, background-color, fill;
+    transition-timing-function: cubic-bezier(0.4 0 0.2 1);
+}
+.service-agree .agree-checkbox:focus + .agree-check-icon,
+.service-agree .agree-checkbox:checked:focus + .agree-check-icon {
+    outline: 2px solid #212121;
+
+}
+.service-agree .agree-checkbox:checked + .agree-check-icon {
+    background-color: var(--iris);
+    border-color: var(--iris);
+    fill: white;
+    outline: none;
+    stroke: var(--white);
+    stroke-width: 0.2;
+}
+.modal-send {
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    gap: 10px;
+    
+
+}
+
+
+
 
 
 
