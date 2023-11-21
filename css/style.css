@@ -685,4 +685,28 @@ footer .iconstwo {
    align-items: center;
 
 }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+.footer-sub {
+    margin-left: 80px; 
+}
+
+.footer .team-socials-icon {
+    margin-right: 10px;
+}
+
+.footer-social-text,
+.footer-subscribe-text {
+    margin-top: 0;
+    color: white;
+}
+          
+.btn-sub {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    padding: 8px 24px;
+    gap: 16px;
+    background-color: var(--iris);
+    border: none;
+    border-radius: 4px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

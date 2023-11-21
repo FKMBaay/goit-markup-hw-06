@@ -87,7 +87,7 @@
                 <label for="agree" class="service-agree">
                   <input type="checkbox" name="agree" class="agree-checkbox" />
                    <svg width="16" height="16" class="agree-check-icon ">
-                      <use href="./images/icons.svg#email"></use>
+                      <use href="./images/icons.svg#checkbox"></use>
                     </svg>
                     <span class="agree-text">I accept the terms and conditions of the <a href="#">Privacy Policy</a></span>
                 </label>
@@ -327,14 +327,18 @@
             </a>
             </div>
           </div>
-          <div class="media">
-            <h3 class="socmed">Subscribe</h3>
-            <form name="signup_form" autocomplete="on" novalidate>
-                <span class="subscribe">Email</span>
-                <input type="text" class="service-input" />
-                  <button type="submit">Subscribe</button>
+          <div class="footer-sub">
+            <p class="footer-subscribe-text">Subscribe</p>
+            <form>
+              <input type="text" placeholder="Email" class="input-sub" />
+              <button class="btn-sub">
+                Subscribe
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </button>
             </form>
-          </div> 
+          </div>
       </div>         
     </footer>
     <script type="text/javascript" src="./js/modal.js"></script>
